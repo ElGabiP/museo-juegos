@@ -1,5 +1,5 @@
 {
-  "homepage":"https://ElGabiP.github.io/museo-juegos",
+  "homepage": "https://ElGabiP.github.io/museo-juegos",
   "name": "museo-juegos",
   "private": true,
   "version": "0.1.0",
@@ -8,8 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "localforage": "^1.10.0",
