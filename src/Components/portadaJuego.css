@@ -1,0 +1,32 @@
+.portadaJuego {
+    list-style: none;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.portadaImagen {
+    width: 11rem;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 7%;
+    border-style: outset;
+    border-width: .4rem .6rem;
+    border-color: lightgray;
+    padding: 0em;
+    will-change: filter;
+    transform: perspective(400px) rotateY(-16deg);
+    transition: all .4s linear;
+}
+
+.portadaImagen:hover {
+    filter: drop-shadow(0 0 1em #0c18ebcb);
+    transform: perspective(400px) rotateY(0deg) scale(1.09);
+}
+
+@media (max-width:560px) {
+    .portadaImagen {
+        width: 80%;
+        height: auto;
+
+    }
+}

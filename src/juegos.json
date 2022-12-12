@@ -1,0 +1,68 @@
+[
+  {
+    "pantalla_presentacion": "/00-Truco.png",
+    "ids_genero": [1, 2],
+    "id": 10001,
+    "titulo": "Truco Arbiser",
+    "desarrollador": "Ariel y Enrique Arbiser",
+    "descripcion": "Este programa fue la primera implementación del juego de cartas argentino por excelencia, el truco. La primera versión data de 1982. Luego, los autores desarrollaron versiones para distintos tipos de máquinas, hasta la versión PC en 1985, que fue la última y más conocida.",
+    "web": "https://www-2.dc.uba.ar/charlas/lud/truco/",
+    "download": true,
+    "captura_pantalla": "/truco-capture.png",
+    "fecha_publicacion": 1985,
+    "plataforma": ["PC-DOS", "Radio Shack TRS-80 Model I", "TI 99/4A"]
+  },
+  {
+    "pantalla_presentacion": "/wolfenstein-3d-escape-del-menemismo-01.png",
+    "ids_genero": [3, 4],
+    "id": 10002,
+    "titulo": "Wolfenstein 3D - Escape del Menemismo",
+    "desarrollador": "Ringo",
+    "descripcion": "Modificación hecha sobre la versión shareware 1.1 del Wolfenstein 3D. Incluye 8 mapas, además de un mapa para el jefe final y otro secreto.",
+    "web": "https://www.cuevadeclasicos.org/comunidad/discovirtual/wolfenstein-3d-escape-del-menemismo-1993.226/",
+    "download": true,
+    "captura_pantalla": "/wolfenstein-3d-escape-del-menemismo-03.png",
+    "fecha_publicacion": 1993,
+    "plataforma": ["PC-DOS"]
+  },
+  {
+    "pantalla_presentacion": "/golazo-portada.jpg",
+    "ids_genero": [5, 6],
+    "id": 10003,
+    "titulo": "Golazo!",
+    "desarrollador": "Purple Tree",
+    "descripcion": "Juego de fútbol arcade súper dinámico, sin faltas ni fuera de juego, inspirado en los juegos de fútbol de los años 90.",
+    "web": "https://purpletreestudio.com/slideshow19.html",
+    "download": false,
+    "captura_pantalla": "/golazo-screen01.jpg",
+    "fecha_publicacion": 2020,
+    "plataforma": ["PC Steam","Nintendo Switch", "PS4", "Xbox One"]
+  },
+  {
+    "pantalla_presentacion": "/argentina8.jpg",
+    "ids_genero": [3, 4],
+    "id": 10004,
+    "titulo": "Argentina 8-Bit",
+    "desarrollador": "Mariano Larronde",
+    "descripcion": "¡App de trivias con la argentinidad al palo! Llena de personajes y referencias de la cultura local.",
+    "web": "https://argentina8bit.com/",
+    "download": true,
+    "captura_pantalla": "/argentina8-2.jpg",
+    "fecha_publicacion": 2020,
+    "plataforma": ["Android", "iOS"]
+  }
+,
+  {
+    "pantalla_presentacion": "/Sol705a.jpg",
+    "ids_genero": [6, 4],
+    "id": 10005,
+    "titulo": "Sol 705",
+    "desarrollador": "Patricio Land",
+    "descripcion": "Aventura gráfica que rinde homenaje a la era dorada del género, transportándonos a la década de 1990 con su diseño y gameplay, con una ambientación en un pueblo bonaerense, en plenos años 70.",
+    "web": "https://www.sol705.com/",
+    "download": true,
+    "captura_pantalla": "/Sol705b.jpg",
+    "fecha_publicacion": 2020,
+    "plataforma": ["Windows","Linux", "Mac"]
+  }
+]
