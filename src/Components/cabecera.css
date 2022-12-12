@@ -25,7 +25,7 @@ a:link, a:visited, a:active {
     color: lightgrey;
     background: inherit;
     overflow: hidden;
-    clip: rect(0, 1vw, 0, 0);
+    clip: rect(0, 99px, 0, 0);
     animation: noise-anim 1.7s infinite linear alternate-reverse;
     animation-delay: 11s;
 }
@@ -39,7 +39,7 @@ a:link, a:visited, a:active {
     color: lightgrey;
     background: inherit;
     overflow: hidden;
-    clip: rect(0, 100%, 0, 0);
+    clip: rect(0, 99px, 0, 0);
     animation: noise-anim-2 2s infinite linear alternate-reverse;
     animation-delay: 7s;
 }
