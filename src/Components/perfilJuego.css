@@ -12,9 +12,11 @@
     list-style: none;
     transform: perspective(200px) rotateY(-37deg) scale(.5);
     filter: opacity(.4) brightness(.7) blur(5px);
+    z-index: -2;
 }
 
 .fichaImagen {
+    position: relative;
     width: 11rem;
     aspect-ratio: 4/3;
     object-fit: cover;
@@ -57,17 +59,16 @@ th {
     background: #7e7676;
 }
 
-@media (max-width:560px) {
+@media screen and (max-width: 560px) {
     .fichaImagen {
         width: 90%;
         height: auto;
-
+        margin-left: -25%;
     }
-}
-
-@media screen and (max-width: 320px) {
     table {
       display: block;
       overflow-x: auto;
+      width: 120%;
+      margin-left: -25%;
     }
 }

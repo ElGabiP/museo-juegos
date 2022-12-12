@@ -25,9 +25,9 @@ a:link, a:visited, a:active {
     color: lightgrey;
     background: inherit;
     overflow: hidden;
-    clip: rect(0, 800px, 0, 0);
+    clip: rect(0, 1vw, 0, 0);
     animation: noise-anim 1.7s infinite linear alternate-reverse;
-    animation-delay: 7s;
+    animation-delay: 11s;
 }
 
 .glitch:before {
@@ -37,59 +37,59 @@ a:link, a:visited, a:active {
     text-shadow: 1px 0 violet;
     top: 0;
     color: lightgrey;
-    background: black;
+    background: inherit;
     overflow: hidden;
-    clip: rect(0, 900px, 0, 0);
+    clip: rect(0, 100%, 0, 0);
     animation: noise-anim-2 2s infinite linear alternate-reverse;
-    animation-delay: 5s;
+    animation-delay: 7s;
 }
 
  @keyframes noise-anim {
     0% {
-      clip: rect(51px, 9999px, 28px, 0);
+      clip: rect(51px, 100vw, 28px, 0);
     }
     5% {
-      clip: rect(70px, 9999px, 19px, 0);
+      clip: rect(70px, 100vw, 19px, 0);
     }
     10% {
-      clip: rect(2px, 9999px, 13px, 0);
+      clip: rect(2px, 100vw, 13px, 0);
     }
     15% {
-      clip: rect(85px, 9999px, 49px, 0);
+      clip: rect(85px, 100vw, 49px, 0);
     }
     20% {
-      clip: rect(45px, 9999px, 66px, 0);
+      clip: rect(45px, 100vw, 66px, 0);
     }
     25% {
-      clip: rect(26px, 9999px, 31px, 0);
+      clip: rect(26px, 100vw, 31px, 0);
     }
     30%,
     100% {
-      clip: rect(42px, 9999px, 27px, 0);
+      clip: rect(42px, 100vw, 27px, 0);
     }
   }
 
   @keyframes noise-anim-2 {
     0% {
-      clip: rect(21px, 9999px, 49px, 0);
+      clip: rect(21px, 100vw, 49px, 0);
     }
     5% {
-      clip: rect(27px, 9999px, 52px, 0);
+      clip: rect(27px, 100vw, 52px, 0);
     }
     10% {
-      clip: rect(21px, 9999px, 70px, 0);
+      clip: rect(21px, 100vw, 70px, 0);
     }
     15% {
-      clip: rect(65px, 9999px, 25px, 0);
+      clip: rect(65px, 100vw, 25px, 0);
     }
     20% {
-      clip: rect(24px, 9999px, 10px, 0);
+      clip: rect(24px, 100vw, 10px, 0);
     }
     25% {
-      clip: rect(61px, 9999px, 64px, 0);
+      clip: rect(61px, 100vw, 64px, 0);
     }
     30%,
     100% {
-      clip: rect(90px, 9999px, 23px, 0);
+      clip: rect(90px, 100vw, 23px, 0);
     }
   }

@@ -10,3 +10,15 @@
     margin: 0 auto;
     padding: 1%;
 }
+
+@media (max-width: 560px){
+    .licencia{
+        content-visibility: hidden;
+    }
+
+    .pie-pagina{
+        width: 100%;
+        bottom: auto;
+        text-align: center;
+    }
+}
