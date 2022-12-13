@@ -5,7 +5,7 @@ function PerfilJuego({ juego }) {
     const { identificador } = useParams();
     const imgUrl = '../assets' + juego.pantalla_presentacion;
     const capturaUrl = '../assets' + juego.captura_pantalla;
-
+    window.onload=scroll(0, top);
     if (juego.id==Number(identificador)){
 
 
@@ -14,7 +14,7 @@ function PerfilJuego({ juego }) {
             <img className='fichaImagen' src={imgUrl} alt={juego.titulo} title={juego.titulo} />
             <img className='fichaImagen' src={capturaUrl} alt={juego.titulo} title={juego.titulo} />
             <div><table>
-            <caption>{juego.titulo}</caption>
+            <caption> ↧ {juego.titulo} ↧ </caption>
 	<tbody>
 		<tr>
 			<td colspan="2">{juego.descripcion}</td>
