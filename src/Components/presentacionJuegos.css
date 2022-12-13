@@ -6,7 +6,10 @@
     place-content: center;
     justify-content: space-around;
 }
-
+h3 {
+text-align: center;
+padding-bottom: 2%;
+}
 @media (max-width: 560px){
     .presentacion-juego{
         grid-template-columns:100% 

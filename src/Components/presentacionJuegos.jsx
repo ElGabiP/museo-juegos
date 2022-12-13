@@ -7,6 +7,7 @@ import PiePagina from './piePagina';
 function presentacionJuegos() {
     return (
         <>
+        <h3><p>Una lista en constante crecimiento de videojuegos argentinos de ayer y de hoy, para no parar de nostalgiar.</p><p>Hacé clic en cualquier título para ver los detalles:</p></h3>
         <ul className='presentacion-juego'>
 
             {juegos.map((juego) => (
