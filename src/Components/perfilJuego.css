@@ -3,9 +3,9 @@
     font-size: 1.1rem;
     text-align: center;
     position: absolute;
-    margin-top: auto;
-    margin-left: 50%;
-    transform: translate(-50%);
+    margin-top: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .fichaJuego-secundario {
@@ -25,7 +25,7 @@
     border-width: .4rem .6rem;
     border-color: lightgray;
     padding: 0em;
-    margin: 12px;
+    margin: 2%;
     filter: drop-shadow(0 0 .6em #0c18ebcb);
 }
 
@@ -59,16 +59,20 @@ th {
     background: #7e7676;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 576px) {
+    .fichaJuego {
+        font-size: 1.4rem;
+        margin-top: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
     .fichaImagen {
         width: 90%;
         height: auto;
-        margin-left: -25%;
     }
     table {
       display: block;
       overflow-x: auto;
-      width: 120%;
-      margin-left: -25%;
+      margin-top: 4%;
     }
 }

@@ -5,9 +5,10 @@
     padding: 10px;
     text-align: center;
     place-content: center;
+    place-items: center;
 }
 
-@media (max-width: 560px){
+@media (max-width: 576px){
     .perfil-juego{
         grid-template-columns:100% 
     }
