@@ -55,16 +55,13 @@ th {
     background: transparent;
 }
 
-.even {
-    background: #7e7676;
-}
-
 @media screen and (max-width: 576px) {
     .fichaJuego {
         font-size: 1.4rem;
         padding-left: 10%;
         padding-right: 10%;
-        margin-top: calc(15% + 65vw);
+        margin-top: -5vmax;
+        margin-bottom: 2vh;
     }
     .fichaImagen {
         width: 90%;
