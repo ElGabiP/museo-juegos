@@ -62,7 +62,6 @@ th {
 @media screen and (max-width: 576px) {
     .fichaJuego {
         font-size: 1.4rem;
-        margin-top: auto;
         padding-left: 10%;
         padding-right: 10%;
     }

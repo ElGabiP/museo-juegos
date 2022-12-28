@@ -1,7 +1,10 @@
 [
   {
     "pantalla_presentacion": "/00-Truco.png",
-    "ids_genero": [1, 2],
+    "ids_genero": [
+      1,
+      2
+    ],
     "id": 10001,
     "titulo": "Truco Arbiser",
     "desarrollador": "Ariel y Enrique Arbiser",
@@ -10,11 +13,18 @@
     "download": true,
     "captura_pantalla": "/truco-capture.png",
     "fecha_publicacion": 1985,
-    "plataforma": ["PC-DOS", "Radio Shack TRS-80 Model I", "TI 99/4A"]
+    "plataforma": [
+      "PC-DOS",
+      "Radio Shack TRS-80 Model I",
+      "TI 99/4A"
+    ]
   },
   {
     "pantalla_presentacion": "/wolfenstein-3d-escape-del-menemismo-01.png",
-    "ids_genero": [3, 4],
+    "ids_genero": [
+      3,
+      4
+    ],
     "id": 10002,
     "titulo": "Wolfenstein 3D - Escape del Menemismo",
     "desarrollador": "Ringo",
@@ -23,11 +33,16 @@
     "download": true,
     "captura_pantalla": "/wolfenstein-3d-escape-del-menemismo-03.png",
     "fecha_publicacion": 1993,
-    "plataforma": ["PC-DOS"]
+    "plataforma": [
+      "PC-DOS"
+    ]
   },
   {
     "pantalla_presentacion": "/golazo-portada.jpg",
-    "ids_genero": [5, 6],
+    "ids_genero": [
+      5,
+      6
+    ],
     "id": 10003,
     "titulo": "Golazo!",
     "desarrollador": "Purple Tree",
@@ -36,11 +51,19 @@
     "download": false,
     "captura_pantalla": "/golazo-screen01.jpg",
     "fecha_publicacion": 2020,
-    "plataforma": ["PC Steam","Nintendo Switch", "PS4", "Xbox One"]
+    "plataforma": [
+      "PC Steam",
+      "Nintendo Switch",
+      "PS4",
+      "Xbox One"
+    ]
   },
   {
     "pantalla_presentacion": "/argentina8.jpg",
-    "ids_genero": [3, 4],
+    "ids_genero": [
+      3,
+      4
+    ],
     "id": 10004,
     "titulo": "Argentina 8-Bit",
     "desarrollador": "Mariano Larronde",
@@ -49,12 +72,17 @@
     "download": true,
     "captura_pantalla": "/argentina8-2.jpg",
     "fecha_publicacion": 2020,
-    "plataforma": ["Android", "iOS"]
-  }
-,
+    "plataforma": [
+      "Android",
+      "iOS"
+    ]
+  },
   {
     "pantalla_presentacion": "/Sol705a.jpg",
-    "ids_genero": [6, 4],
+    "ids_genero": [
+      6,
+      4
+    ],
     "id": 10005,
     "titulo": "Sol 705",
     "desarrollador": "Patricio Land",
@@ -63,6 +91,49 @@
     "download": true,
     "captura_pantalla": "/Sol705b.jpg",
     "fecha_publicacion": 2020,
-    "plataforma": ["Windows","Linux", "Mac"]
+    "plataforma": [
+      "Windows",
+      "Linux",
+      "Mac"
+    ]
+  },
+  {
+    "pantalla_presentacion": "/nodbots.jpeg",
+    "ids_genero": [
+      6,
+      4
+    ],
+    "id": 10006,
+    "titulo": "Nodbots - los rebeldes del espacio",
+    "desarrollador": "Contenidos Lúdicos de la DIGCF",
+    "descripcion": "Juego puzzle de lógica con ambientación futurista desarrollado por la Dirección para la Integración en la Gestión de Contenidos Federales para la plataforma Crear Juegos en Argentina. Se trata de reconectar satélites tomados por androides rebeldes.",
+    "web": "https://crearjuegos.ar/videojuegos/ver/Nodbots%20-%20los%20rebeldes%20del%20espacio",
+    "download": false,
+    "captura_pantalla": "/nodbots2.jpg",
+    "fecha_publicacion": 2020,
+    "plataforma": [
+      "Web"
+    ]
+  }
+  ,
+  {
+    "pantalla_presentacion": "/semaforo1.jpg",
+    "ids_genero": [
+      6,
+      4
+    ],
+    "id": 10007,
+    "titulo": "Semáforo Climber",
+    "desarrollador": "Bruno Bombardi y Franco Folatelli",
+    "descripcion": "Juego de carrera sin fin creado en tiempo récord. ¡Festejá la Copa del Mundo de Qatar subiendo a lo más alto! ¿Estás listo para encontrarte con Messi, bailar con el Dibu Martínez y hasta volar con el ángel de Maradona?",
+    "web": "https://crabdogstudio.itch.io/semaforoclimber",
+    "download": true,
+    "captura_pantalla": "/semaforo2.jpg",
+    "fecha_publicacion": 2022,
+    "plataforma": [
+      "Android",
+      "iOS",
+      "Web"
+    ]
   }
 ]
