@@ -10,8 +10,8 @@
 
 @media (max-width: 576px){
     .perfil-juego{
-        grid-template-columns: minmax(54%, 60%);
-        gap: initial;
+        grid-template-columns: min-content 1fr; 
+        gap: 0px;
     }
 
 }
