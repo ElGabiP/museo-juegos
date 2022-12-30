@@ -1,22 +1,22 @@
-.pie-pagina{
+.pie-pagina {
     max-width: 1280px;
     position: -webkit-sticky;
     position: sticky;
     bottom: 0px;
     background-color: #242424;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     padding: 1%;
 }
 
-@media (max-width: 576px){
-    .licencia{
+@media (max-width: 576px) {
+    .licencia {
         content-visibility: hidden;
     }
 
-    .pie-pagina{
+    .pie-pagina {
         width: 100%;
         bottom: auto;
         text-align: center;

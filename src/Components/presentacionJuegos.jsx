@@ -16,7 +16,7 @@ function presentacionJuegos() {
             }
 
         </ul>
-        <PiePagina creador="©2022 -  Desarrollada por Gabriel Pescio con ❤️ y 🧠"></PiePagina>
+        <PiePagina creador="©2022-2023 -  Desarrollada por Gabriel Pescio con ❤️ y 🧠"></PiePagina>
         </>
     );
 }

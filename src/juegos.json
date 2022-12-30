@@ -136,4 +136,59 @@
       "Web"
     ]
   }
+ ,
+  {
+    "pantalla_presentacion": "/phantomgear.jpg",
+    "ids_genero": [
+      6,
+      4
+    ],
+    "id": 10008,
+    "titulo": "Phantom Gear",
+    "desarrollador": "Bits Rule",
+    "descripcion": "¡Un nuevo jueguito para la SEGA Génesis! Ponete en la piel de Josephine y derrotá a la malvada Ocular Force en este plataformas al más puro estilo Megaman.",
+    "web": "https://megacatstudios.com/pages/phantom-gear",
+    "download": true,
+    "captura_pantalla": "/phantomgear2.jpg",
+    "fecha_publicacion": 2019,
+    "plataforma": [
+      "Sega Genesis / Mega Drive"
+    ]
+  } ,
+  {
+    "pantalla_presentacion": "/Hellbound.jpg",
+    "ids_genero": [
+      6,
+      4
+    ],
+    "id": 10009,
+    "titulo": "Hellbound",
+    "desarrollador": "Saibot Studios",
+    "descripcion": "Disparos en primera persona fuertemente inspirado clásicos de los '90 como DooM. ¡Reventá hordas de demonios al ritmo del metal más duro!",
+    "web": "http://hellboundgame.com/",
+    "download": true,
+    "captura_pantalla": "/Hellbound2.jpg",
+    "fecha_publicacion": 2019,
+    "plataforma": [
+      "PC Steam",
+      "PS4"
+    ]},
+  {
+    "pantalla_presentacion": "/Kelvin.jpg",
+    "ids_genero": [
+      6,
+      4
+    ],
+    "id": 10010,
+    "titulo": "Kelvin and the Infamous Machine",
+    "desarrollador": "Blyts",
+    "descripcion": "Aventura de point-and-click, tributo a clásicos como Monkey Island. Detené al chiflado científico Dr. Edwin Lupin, que ha decidido robarse el crédito de los más grandes inventos de la humanidad luego que la comunidad científica ridiculizara su novedosa máquina del tiempo, y restaurá la historia.",
+    "web": "https://infamousmachine.com/",
+    "download": true,
+    "captura_pantalla": "/Kelvin2.jpg",
+    "fecha_publicacion": 2016,
+    "plataforma": [
+      "PC Steam"
+    ]
+  }
 ]
